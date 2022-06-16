@@ -3,7 +3,18 @@
 
 using namespace std;
 
+void Section4();
+void Section6();
+void Section7();
+
 int main() {
+	Section4();
+	Section6();
+	Section7();
+
+	return 0;
+}
+void Section4() {
 	//Section 4
 	int favorite;
 
@@ -13,6 +24,8 @@ int main() {
 		cout << "That's my favorite number too.\nNo really " << favorite << " is my favorite number.";
 	else
 		cout << "That's number more 100 or less 1";
+}
+void Section6() {
 	//Section 6
 	const double price_small_room{ 25 };
 	const double price_large_room{ 35 };
@@ -31,6 +44,8 @@ int main() {
 	cout << "=================================" << endl;
 	cout << "Total estimate: $" << sum + (sum / 100 * percent) << "\nThis estimate is valid for 30 days\n";
 	cout << "Time elapsed: " << __DATE__ << " " << __TIME__;
+}
+void Section7() {
 	//Section 7
 	vector<int> vector1;
 	vector<int> vector2;
@@ -70,6 +85,4 @@ int main() {
 	for (int i = 0; i < vector1.size(); ++i)
 		cout << vector1.at(i) << endl;
 	cout << "vector1 contains " << vector1.size() << " elements" << endl;
-
-	return 0;
 }
