@@ -1,5 +1,8 @@
 #include<iostream>
+#include<numeric>
+#include<algorithm>
 #include<vector>
+#include<list>
 
 using namespace std;
 
@@ -7,14 +10,86 @@ void Section4();
 void Section6();
 void Section7();
 void Section8();
-
+void Section9();
 
 int main() {
 	//Section4();
 	//Section6();
 	//Section7();
-	Section8();
+	//Section8();
+	Section9();
 	return 0;
+}
+void Section9()
+{
+	vector<int> list{1,2,3,4,5,6,7,8,9,10};
+	char selection{};
+	int add;
+	int s = list.at(0), l = list.at(0);
+	bool job = true;
+	do {
+		cout << "P - Print numbers" << endl;
+		cout << "A - Add a number" << endl;
+		cout << "M - Display mean of the numbers" << endl;
+		cout << "S - Display the smallest number" << endl;
+		cout << "L - Display the largest number" << endl;
+		cout << "Q - Quit" << endl;
+		cout << "\nEnter your choice: ";
+		cin >> selection;
+
+		switch (selection)
+		{
+		case'p':
+		{
+			cout << '[';
+			if (list.size() > 0) {
+				for (int i = 0; i < list.size(); ++i)
+					cout << ' ' << list[i] << ' ';
+				cout << ']'<< endl;
+			}
+			else
+				cout << "] - the list is empty" << endl;
+			break;
+		}
+		case 'a':
+		{
+			cin >> add;
+			list.push_back(add);
+			cout << add<< " added" << endl;
+			break;
+		}
+		case 'm':
+		{
+			if (list.size() > 0)
+				cout << accumulate(list.begin(), list.end(), 0.0) / list.size() << endl;
+			else
+				cout << "Unable to calculate the mean - no data" << endl;
+			break;
+		}
+		case 's':
+		{
+			for (int i = 0; i < list.size(); i++)
+				if (list[i] < s)
+					s = list[i];
+			cout << "The smallest number is " << s << endl;
+			break;
+		}
+		case 'l':
+		{
+			for (int i = 0; i < list.size(); i++)
+				if (list[i] > l)
+					l = list[i];
+			cout << "The largest number is " << l << endl;
+			break;
+		}
+		case'q':
+			cout << "Goodbye" << endl;
+			job = false; break;
+		default:
+			cout << "Wrong choice" << endl;
+			break;
+		}
+	} while (job);
 }
 
 void Section8()
