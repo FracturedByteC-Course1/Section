@@ -1,1 +1,5 @@
-﻿  SectionChallenges.vcxproj -> E:\GitHub\SectionChallenges\Debug\SectionChallenges.exe
+﻿  main.cpp
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(99,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(107,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(127,20): warning C4018: <: несоответствие типов со знаком и без знака
+  SectionChallenges.vcxproj -> E:\GitHub\SectionChallenges\Debug\SectionChallenges.exe
