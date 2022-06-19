@@ -2,7 +2,7 @@
 #include<numeric>
 #include<algorithm>
 #include<vector>
-#include<list>
+#include<string>
 
 using namespace std;
 
@@ -11,15 +11,55 @@ void Section6();
 void Section7();
 void Section8();
 void Section9();
+void Section10();
 
 int main() {
 	//Section4();
 	//Section6();
 	//Section7();
 	//Section8();
-	Section9();
+	//Section9();
+	Section10();
 	return 0;
 }
+void Section10() {
+	string alphabet{ "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" };
+	string key{ "ZXCVBNMASDFGHJKLQWERTYUIOPmnbvcxzlkjhgfdsapoiuytrewq" };
+
+	string secret_message;
+	cout << "Enter your secret message: ";
+	getline(cin, secret_message);
+	string encrypted_message;
+	cout << "\nEncrypting message... " << endl;
+	for (char c : secret_message) {
+		int position = alphabet.find(c);
+		if (position != string::npos)
+		{
+			char new_char = key[position];
+			encrypted_message += new_char;
+		}
+		else
+			encrypted_message += c;
+	}
+
+	cout << "\n Encrypted message: " << encrypted_message << endl;
+
+	string dencrypted_message;
+	cout << "\nDencrypting message... " << endl;
+	for (char c : secret_message) {
+		int position = alphabet.find(c);
+		if (position != string::npos)
+		{
+			char new_char = alphabet[position];
+			dencrypted_message += new_char;
+		}
+		else
+			dencrypted_message += c;
+	}
+
+	cout << "\n Dencrypted message: " << dencrypted_message << endl;
+}
+
 void Section9()
 {
 	vector<int> list{1,2,3,4,5,6,7,8,9,10};
