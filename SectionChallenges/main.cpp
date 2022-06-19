@@ -12,6 +12,15 @@ void Section7();
 void Section8();
 void Section9();
 void Section10();
+void LetterPyramid();
+void Section11();
+
+char CheckChoice(char choice);
+void Print(vector<int> v);
+double AVG(vector<int> v);
+int MIN(vector<int> v);
+int MAX(vector<int> v);
+bool Quit();
 
 int main() {
 	//Section4();
@@ -19,9 +28,159 @@ int main() {
 	//Section7();
 	//Section8();
 	//Section9();
-	Section10();
+	//Section10();
+	//LetterPyramid();
+	Section11();
 	return 0;
 }
+
+void Section11() {
+	vector<int> list{ 1,2,3,4,5,6,7,8,9,10 };
+	char selection{};
+	int add;
+	bool job = true;
+	do {
+		cout << "P - Print numbers" << endl;
+		cout << "A - Add a number" << endl;
+		cout << "M - Display mean of the numbers" << endl;
+		cout << "S - Display the smallest number" << endl;
+		cout << "L - Display the largest number" << endl;
+		cout << "Q - Quit" << endl;
+		cout << "\nEnter your choice: ";
+		cin >> selection;
+
+		switch (CheckChoice(selection))
+		{
+		case 'P':
+		{
+			cout << '[';
+			if (list.size() > 0) {
+				Print(list);
+				cout << ']' << endl;
+			}
+			else
+				cout << "] - the list is empty" << endl;
+			break;
+		}
+		case 'A':
+		{
+			cin >> add;
+			list.push_back(add);
+			cout << list.at(list.size()-1) << " added" << endl;
+			break;
+		}
+		case 'M':
+		{
+			if (list.size() > 0)
+				cout << AVG(list) << endl;
+			else
+				cout << "Unable to calculate the mean - no data" << endl;
+			break;
+		}
+		case 'S':
+		{
+			cout << "The smallest number is " << MIN(list) << endl;
+			break;
+		}
+		case 'L':
+		{
+			cout << "The largest number is " << MAX(list) << endl;
+			break;
+		}
+		case'Q':
+			job = Quit(); break;
+		default:
+			cout << "Wrong choice" << endl;
+			break;
+		}
+	} while (job);
+}
+
+char CheckChoice(char choice)
+{
+	switch (choice)
+	{
+	case 'p':
+		return 'P'; break;
+	case 'a':
+		return 'A'; break;
+	case'm':
+		return 'M'; break;
+	case 's':
+		return 'S'; break;
+	case 'l':
+		return 'L'; break;
+	case 'q':
+		return 'Q'; break;
+	default:
+		break;
+	}
+}
+
+void Print(vector<int> v)
+{
+	for (int i = 0; i < v.size(); ++i)
+	{
+		cout << " " << v.at(i) << " ";
+	}
+}
+
+double AVG(vector<int> v)
+{
+	return accumulate(v.begin(), v.end(), 0.0) / v.size();
+}
+
+int MIN(vector<int> v)
+{
+	int s = v.at(0);
+	for (int i = 0; i < v.size(); i++)
+		if (v[i] < s)
+			s = v[i];
+	return s;
+}
+
+int MAX(vector<int> v)
+{
+	int l = v.at(0);
+	for (int i = 0; i < v.size(); i++)
+		if (v[i] > l)
+			l = v[i];
+	return l;
+}
+
+bool Quit() {
+	cout << "Goodbye" << endl;
+	return false;
+}
+
+void LetterPyramid() {
+	string ref; //string letters
+	cout << "Enter a string of letters so I can create a Letter Pyramid from it: ";
+	getline(cin, ref);
+	int pos;
+	for (int i = 0; i < ref.length(); ++i)
+	{
+		pos = 0;
+		for (int j = 0; j < ref.length(); j++)//draw half of the pyramid in ascending order
+		{
+			if (i + j >= ref.length()-1) {
+				cout << ref[pos];
+				pos++;
+			}
+			else
+				cout << " ";
+		}
+		++pos;
+		for (int j = ref.length(); j >=0; --j)//Draw the other side of the pyramid in descending order
+		{
+			if (i > j)
+				cout << ref[j];
+		}
+
+		cout << endl;
+	}
+}
+
 void Section10() {
 	string alphabet{ "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" };
 	string key{ "ZXCVBNMASDFGHJKLQWERTYUIOPmnbvcxzlkjhgfdsapoiuytrewq" };
