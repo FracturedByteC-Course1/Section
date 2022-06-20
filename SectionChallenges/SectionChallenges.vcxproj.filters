@@ -24,12 +24,18 @@
     <ClCompile Include="Movies.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Movie.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Movies.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

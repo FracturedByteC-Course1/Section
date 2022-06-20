@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Movie.cpp" />
     <ClCompile Include="Movies.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.h" />
     <ClInclude Include="Movie.h" />
     <ClInclude Include="Movies.h" />
   </ItemGroup>
