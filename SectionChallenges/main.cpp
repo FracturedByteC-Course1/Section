@@ -14,6 +14,7 @@ void Section9();
 void Section10();
 void LetterPyramid();
 void Section11();
+void Section12();
 
 char CheckChoice(char choice);
 void Print(vector<int> v);
@@ -21,6 +22,9 @@ double AVG(vector<int> v);
 int MIN(vector<int> v);
 int MAX(vector<int> v);
 bool Quit();
+
+void print(const int *arr, size_t size);
+int* apply_all(const int *arr1, size_t arr1_size, const int *arr2, size_t arr2_size);
 
 int main() {
 	//Section4();
@@ -30,8 +34,59 @@ int main() {
 	//Section9();
 	//Section10();
 	//LetterPyramid();
-	Section11();
+	//Section11();
+	Section12();
 	return 0;
+}
+
+void Section12() 
+{
+	const size_t array1_size = 5;
+	const size_t array2_size = 3;
+
+	int array1[]{ 1,2,3,4,5 };
+	int array2[]{ 10,20,30 };
+
+	cout << "Array 1: ";
+	print(array1, array1_size);
+
+	cout << "Array 2: ";
+	print(array2, array2_size);
+
+	int* results = apply_all(array1, array1_size, array2, array2_size);
+	constexpr size_t results_size{ array1_size * array2_size };
+
+	cout << "Results: ";
+	print(results, results_size);
+
+	delete[] results;
+	cout << endl;
+
+}
+
+void print(const int* arr, size_t size)
+{
+	cout << "[ ";
+	for (size_t i = 0; i < size; ++i)
+		cout << arr[i] << ' ';
+	cout << ']' << endl;
+}
+
+int* apply_all(const int* arr1, size_t arr1_size, const int* arr2, size_t arr2_size)
+{
+	int* new_array;
+	new_array = new int[arr1_size * arr2_size];
+
+	int position = 0;
+	for (size_t i = 0; i < arr2_size; ++i)
+	{
+		for (size_t j = 0; j < arr1_size; ++j)
+		{
+			new_array[position] = arr1[j] * arr2[i];
+			++position;
+		}
+	}
+	return new_array;
 }
 
 void Section11() {
