@@ -1,15 +1,15 @@
 ﻿  main.cpp
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(122,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(136,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(145,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(161,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(164,21): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(166,14): warning C4018: >=: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(245,23): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(270,22): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(278,22): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(373,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(381,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(401,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(118): warning C4715: CheckChoice: значение возвращается не при всех путях выполнения
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(177,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(191,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(200,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(216,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(219,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(221,14): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(300,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(325,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(333,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(428,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(436,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(456,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(173): warning C4715: CheckChoice: значение возвращается не при всех путях выполнения
   SectionChallenges.vcxproj -> E:\GitHub\SectionChallenges\Debug\SectionChallenges.exe
