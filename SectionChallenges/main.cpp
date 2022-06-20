@@ -1,10 +1,6 @@
-#include<iostream>
 #include<numeric>
 #include<algorithm>
-#include<vector>
-#include<string>
-
-using namespace std;
+#include"Movies.h"
 
 void Section4();
 void Section6();
@@ -15,6 +11,7 @@ void Section10();
 void LetterPyramid();
 void Section11();
 void Section12();
+void Section13();
 
 char CheckChoice(char choice);
 void Print(vector<int> v);
@@ -35,8 +32,22 @@ int main() {
 	//Section10();
 	//LetterPyramid();
 	//Section11();
-	Section12();
+	//Section12();
+	Section13();
 	return 0;
+}
+
+void Section13() 
+{
+	Movies my_movies;
+
+	my_movies.display();
+
+	my_movies.add_movie("Deadpool", "PG-13", 10);
+	my_movies.add_movie("To Wong Foo, Thanks for Everything! Julie Newmar", "PG-13", 1);
+	my_movies.add_movie("King Arthur: Legend of the Sword", "PG", 7);
+
+	my_movies.display();
 }
 
 void Section12() 
