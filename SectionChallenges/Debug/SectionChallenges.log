@@ -1,5 +1,15 @@
-﻿  MyString.cpp
-  Checking_Account.cpp
-  Trust_Account.cpp
-  Создание кода...
+﻿  main.cpp
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(259,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(273,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(282,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(298,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(301,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(303,14): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(382,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(407,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(415,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(510,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(518,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(538,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(255): warning C4715: CheckChoice: значение возвращается не при всех путях выполнения
   SectionChallenges.vcxproj -> E:\GitHub\SectionChallenges\Debug\SectionChallenges.exe

@@ -25,6 +25,8 @@ bool Quit();
 void print(const int *arr, size_t size);
 int* apply_all(const int *arr1, size_t arr1_size, const int *arr2, size_t arr2_size);
 
+void Section16();
+
 int main() {
 	//Section4();
 	//Section6();
@@ -36,8 +38,25 @@ int main() {
 	//Section11();
 	//Section12();
 	//Section13();
-	Section15();
+	//Section15();
+	Section16();
 	return 0;
+}
+
+void Section16()
+{
+	Checking_Account c;
+	cout << c << endl;
+
+	Savings_Account s{ "Frank", 5000,2.6 };
+	cout << s << endl;
+	s.deposit(10000);
+	cout << s << endl;
+	s.withdraw(10000);
+	cout << s << endl;
+
+	Account *ptr = new Trust_Account{ "Leo", 10000, 2.6 };
+	cout << *ptr << endl;
 }
 
 void Section15()
@@ -45,7 +64,7 @@ void Section15()
 	cout.precision(2);
 	cout << fixed;
 
-	vector<Account> accounts;
+	/*vector<Account> accounts;
 	accounts.push_back(Account{});
 	accounts.push_back(Account{ "Larry" });
 	accounts.push_back(Account{ "Moe",2000 });
@@ -86,7 +105,7 @@ void Section15()
 	withdraw(trust_accounts, 3000);
 
 	for (int i = 1; i <= 5; ++i)
-		withdraw(trust_accounts, 1000);
+		withdraw(trust_accounts, 1000);*/
 }
 
 void Section13() 

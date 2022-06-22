@@ -143,6 +143,7 @@
     <ClCompile Include="Account_Util.cpp" />
     <ClCompile Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.cpp" />
     <ClCompile Include="Checking_Account.cpp" />
+    <ClCompile Include="I_Printable.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Movie.cpp" />
     <ClCompile Include="Movies.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Account_Util.h" />
     <ClInclude Include="C:\Users\lilis\OneDrive\Документы\C++OOP\MyString\MyString\MyString\MyString.h" />
     <ClInclude Include="Checking_Account.h" />
+    <ClInclude Include="I_Printable.h" />
     <ClInclude Include="Movie.h" />
     <ClInclude Include="Movies.h" />
     <ClInclude Include="Savings_Account.h" />
