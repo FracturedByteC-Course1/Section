@@ -14,3 +14,8 @@ bool Savings_Account::deposit(double amount)
     amount += amount * (int_rate / 100);
     return Account::deposit(amount);
 }
+
+bool Savings_Account::withdraw(double amount)
+{
+    return Account::withdraw(amount);
+}

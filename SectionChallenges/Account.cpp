@@ -29,7 +29,14 @@ bool Account::withdraw(double amount)
         return false;
 }
 
-double Account::get_balance() const
+void Account::print(ostream& os) const
 {
-    return balance;
+    os.precision(2);
+    os << fixed;
+    os << "[Account: " << name << ": " << balance << ']';
 }
+
+//double Account::get_balance() const
+//{
+//    return balance;
+//}
