@@ -39,7 +39,7 @@ int main() {
 	//Section12();
 	//Section13();
 	//Section15();
-	Section16();
+	//Section16();
 	return 0;
 }
 
@@ -64,7 +64,7 @@ void Section15()
 	cout.precision(2);
 	cout << fixed;
 
-	/*vector<Account> accounts;
+	vector<Account> accounts;
 	accounts.push_back(Account{});
 	accounts.push_back(Account{ "Larry" });
 	accounts.push_back(Account{ "Moe",2000 });
@@ -105,7 +105,7 @@ void Section15()
 	withdraw(trust_accounts, 3000);
 
 	for (int i = 1; i <= 5; ++i)
-		withdraw(trust_accounts, 1000);*/
+		withdraw(trust_accounts, 1000);
 }
 
 void Section13() 
