@@ -139,9 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main2.cpp" />
     <ClCompile Include="Smart_Pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header2.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="List2.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Node2.h" />
     <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
