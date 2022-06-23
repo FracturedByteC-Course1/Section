@@ -1,2 +1,20 @@
-﻿  Smart_Pointers.cpp
-  Smart_Pointers.vcxproj -> E:\GitHub\SectionChallenges\Smart_Pointers\Debug\Smart_Pointers.exe
+﻿  main.cpp
+  main2.cpp
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(10,10): error C2039: "insert": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(11,10): error C2039: "print_forward": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(19,10): error C2039: "sort_ascending": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(20,10): error C2039: "print_forward": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(21,10): error C2039: "print_backward": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(22,10): error C2039: "sort_descending": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(23,10): error C2039: "print_forward": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(24,10): error C2039: "print_backward": не является членом "List<int>".
+E:\GitHub\SectionChallenges\Smart_Pointers\Smart_Pointers\main2.cpp(5): message : см. объявление "List<int>"
+  Smart_Pointers.cpp
+  Создание кода...

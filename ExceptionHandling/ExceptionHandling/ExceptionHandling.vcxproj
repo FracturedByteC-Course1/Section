@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{92eabecc-889d-441b-989c-efcaef29d5c4}</ProjectGuid>
-    <RootNamespace>SmartPointers</RootNamespace>
+    <ProjectGuid>{76dc747b-8efe-4dd8-93fc-961c63dc5326}</ProjectGuid>
+    <RootNamespace>ExceptionHandling</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,17 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="main2.cpp" />
-    <ClCompile Include="Smart_Pointers.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Account_Util.cpp" />
+    <ClCompile Include="Checking_Account.cpp" />
+    <ClCompile Include="ExceptionHandling.cpp" />
+    <ClCompile Include="I_Printable.cpp" />
+    <ClCompile Include="Savings_Account.cpp" />
+    <ClCompile Include="Trust_Account.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header2.h" />
-    <ClInclude Include="List.h" />
-    <ClInclude Include="List2.h" />
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="Node2.h" />
-    <ClInclude Include="Test.h" />
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Account_Util.h" />
+    <ClInclude Include="Checking_Account.h" />
+    <ClInclude Include="IllegalBalanceException.h" />
+    <ClInclude Include="InsufficientFundsException.h" />
+    <ClInclude Include="I_Printable.h" />
+    <ClInclude Include="Savings_Account.h" />
+    <ClInclude Include="Trust_Account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
