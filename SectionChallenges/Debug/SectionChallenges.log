@@ -1,4 +1,214 @@
-﻿  main.cpp
+﻿  Account_Util.cpp
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(32,27): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(32,20): error C2923: std::vector: "Savings_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(32): message : см. объявление "Savings_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(32,20): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(35,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(35,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(35,33): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(35,33): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(35,33): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(40,21): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(40,14): error C2923: std::vector: "Savings_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(40): message : см. объявление "Savings_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(40,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(43,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(43,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(43,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(43,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(43,27): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(51,22): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(51,15): error C2923: std::vector: "Savings_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(51): message : см. объявление "Savings_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(51,15): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(54,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(54,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(54,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(54,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(54,27): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(62,27): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(62,20): error C2923: std::vector: "Checking_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(62): message : см. объявление "Checking_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(62,20): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(62,6): error C2084: функция "void display(const std::vector &)" уже имеет текст реализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(32): message : см. предыдущее определение "display"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(65,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(65,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(65,33): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(65,33): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(65,33): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(69,21): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(69,14): error C2923: std::vector: "Checking_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(69): message : см. объявление "Checking_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(69,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(69,6): error C2084: функция "void deposit(std::vector &,double)" уже имеет текст реализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(40): message : см. предыдущее определение "deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(72,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(72,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(72,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(72,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(72,27): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(80,22): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(80,15): error C2923: std::vector: "Checking_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(80): message : см. объявление "Checking_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(80,15): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(80,6): error C2084: функция "void withdraw(std::vector &,double)" уже имеет текст реализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(51): message : см. предыдущее определение "withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(83,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(83,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(83,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(83,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(83,27): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(91,27): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(91,20): error C2923: std::vector: "Trust_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(91): message : см. объявление "Trust_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(91,20): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(94,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(94,25): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(94,33): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(94,33): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(94,33): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(99,21): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(99,14): error C2923: std::vector: "Trust_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(99): message : см. объявление "Trust_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(99,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(102,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(102,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(102,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(102,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(102,27): error C2100: недопустимое косвенное обращение
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(110,22): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(110,15): error C2923: std::vector: "Trust_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(110): message : см. объявление "Trust_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(110,15): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(113,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(113,19): error C2663: std::vector<_Ty,_Alloc>::_Unchecked_end: для 2 перегрузок нет допустимого преобразования для указателя "this"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(113,27): error C3536: <begin>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(113,27): error C3536: <end>$L0: не может использоваться до инициализации
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.cpp(113,27): error C2100: недопустимое косвенное обращение
+  main.cpp
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(48,2): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(48,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(48,19): error C2065: c: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(49,10): error C2065: c: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(51,2): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(51,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "s"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(51,18): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(52,10): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(53,2): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(54,10): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(55,2): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(56,10): error C2065: s: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(58,21): error C2061: синтаксическая ошибка: идентификатор "Trust_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(58,34): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(58,54): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(68,21): error C2259: "Account": невозможно создать экземпляр абстрактного класса
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(8): message : см. объявление "Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(68,21): message : из-за следующих членов:
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(68,21): message : bool Account::deposit(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(19): message : см. объявление "Account::deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(68,21): message : bool Account::withdraw(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(20): message : см. объявление "Account::withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(69,21): error C2259: "Account": невозможно создать экземпляр абстрактного класса
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(8): message : см. объявление "Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(69,21): message : из-за следующих членов:
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(69,21): message : bool Account::deposit(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(19): message : см. объявление "Account::deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(69,21): message : bool Account::withdraw(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(20): message : см. объявление "Account::withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(70,21): error C2259: "Account": невозможно создать экземпляр абстрактного класса
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(8): message : см. объявление "Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(70,21): message : из-за следующих членов:
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(70,21): message : bool Account::deposit(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(19): message : см. объявление "Account::deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(70,21): message : bool Account::withdraw(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(20): message : см. объявление "Account::withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(71,21): error C2259: "Account": невозможно создать экземпляр абстрактного класса
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(8): message : см. объявление "Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(71,21): message : из-за следующих членов:
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(71,21): message : bool Account::deposit(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(19): message : см. объявление "Account::deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(71,21): message : bool Account::withdraw(double): абстрактный
+E:\GitHub\SectionChallenges\SectionChallenges\Account.h(20): message : см. объявление "Account::withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(73,18): error C2664: "void display(const std::vector<Account *,std::allocator<Account *>> &)": невозможно преобразовать аргумент 1 из "std::vector<Account,std::allocator<Account>>" в "const std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(73,18): message : Причина: невозможно преобразовать "std::vector<Account,std::allocator<Account>>" в "const std::vector<Account *,std::allocator<Account *>>"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(73,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(9,7): message : см. объявление "display"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(74,24): error C2664: "void deposit(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector<Account,std::allocator<Account>>" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(10,7): message : см. объявление "deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(75,25): error C2664: "void withdraw(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector<Account,std::allocator<Account>>" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(11,7): message : см. объявление "withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77,9): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77,2): error C2923: std::vector: "Savings_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77): message : см. объявление "Savings_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77,38): error C2133: sav_accounts: неизвестный размер
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(77,26): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443,1): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(78,25): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(79,25): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(80,25): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(81,25): error C2065: Savings_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(83,22): error C2664: "void display(const std::vector<Account *,std::allocator<Account *>> &)": невозможно преобразовать аргумент 1 из "std::vector" в "const std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(83,22): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<Account *,std::allocator<Account *>>"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(83,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(9,7): message : см. объявление "display"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(84,28): error C2664: "void deposit(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(10,7): message : см. объявление "deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(85,29): error C2664: "void withdraw(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(11,7): message : см. объявление "withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87,9): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87,2): error C2923: std::vector: "Checking_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87): message : см. объявление "Checking_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87,41): error C2133: check_accounts: неизвестный размер
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(87,27): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443,1): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(88,27): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(89,27): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(90,27): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(91,27): error C2065: Checking_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(93,24): error C2664: "void display(const std::vector<Account *,std::allocator<Account *>> &)": невозможно преобразовать аргумент 1 из "std::vector" в "const std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(93,24): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<Account *,std::allocator<Account *>>"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(93,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(9,7): message : см. объявление "display"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(94,30): error C2664: "void deposit(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(10,7): message : см. объявление "deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(95,31): error C2664: "void withdraw(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(11,7): message : см. объявление "withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97,9): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97,2): error C2923: std::vector: "Trust_Account" не является допустимым аргументом типа шаблон для параметра "_Ty"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97): message : см. объявление "Trust_Account"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97,38): error C2133: trust_accounts: неизвестный размер
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(97,24): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(443,1): message : см. объявление "std::vector"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(98,27): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(99,27): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(100,27): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(101,27): error C2065: Trust_Account: необъявленный идентификатор
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(103,24): error C2664: "void display(const std::vector<Account *,std::allocator<Account *>> &)": невозможно преобразовать аргумент 1 из "std::vector" в "const std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(103,24): message : Причина: невозможно преобразовать "std::vector" в "const std::vector<Account *,std::allocator<Account *>>"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(103,10): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(9,7): message : см. объявление "display"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(104,30): error C2664: "void deposit(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(10,7): message : см. объявление "deposit"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(105,31): error C2664: "void withdraw(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(11,7): message : см. объявление "withdraw"
+E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(108,32): error C2664: "void withdraw(std::vector<Account *,std::allocator<Account *>> &,double)": невозможно преобразовать аргумент 1 из "std::vector" в "std::vector<Account *,std::allocator<Account *>> &"
+E:\GitHub\SectionChallenges\SectionChallenges\Account_Util.h(11,7): message : см. объявление "withdraw"
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(259,20): warning C4018: <: несоответствие типов со знаком и без знака
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(273,20): warning C4018: <: несоответствие типов со знаком и без знака
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(282,20): warning C4018: <: несоответствие типов со знаком и без знака
@@ -11,5 +221,4 @@ E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(415,22): warning C4018: <
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(510,20): warning C4018: <: несоответствие типов со знаком и без знака
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(518,20): warning C4018: <: несоответствие типов со знаком и без знака
 E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(538,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\GitHub\SectionChallenges\SectionChallenges\main.cpp(255): warning C4715: CheckChoice: значение возвращается не при всех путях выполнения
-  SectionChallenges.vcxproj -> E:\GitHub\SectionChallenges\Debug\SectionChallenges.exe
+  Создание кода...
