@@ -1,0 +1,3 @@
+﻿  test.cpp
+E:\GitHub\SectionChallenges\Section19\Section19\Challenge1.h(93,28): warning C4018: <: несоответствие типов со знаком и без знака
+  Section19.vcxproj -> E:\GitHub\SectionChallenges\Section19\Debug\Section19.exe
