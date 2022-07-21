@@ -1,5 +1,5 @@
 #include "pch.h"
-#include"Challenge2/Challenge2.h"
+#include"Challenge3/Challenge3.h"
 
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
